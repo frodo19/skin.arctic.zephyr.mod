@@ -1567,6 +1567,7 @@
                 <height>38</height>
                 <left>35</left>
                 <texture colordiffuse="Dark1" background="true">backg/mc_white.png</texture>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="label" description="Rotten Tomatoes">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Metacritic_Rating)) + Skin.HasSetting(furniture.showtomatoesandmetacritics) + Skin.HasSetting(furniture.flagicons)</visible>
@@ -1577,6 +1578,7 @@
                 <left>3</left>
                 <textcolor>Dark2</textcolor>
                 <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.Metacritic_Rating)]%</label>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="image" description="Rotten Tomatoes">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)) + Skin.HasSetting(furniture.showtomatoesandmetacritics) + Skin.HasSetting(furniture.flagicons)</visible>
@@ -1586,6 +1588,7 @@
                 <height>38</height>
                 <left>35</left>
                 <texture colordiffuse="Dark1" background="true">$VAR[RottenTomatoes]</texture>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="label" description="Rotten Tomatoes">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)) + Skin.HasSetting(furniture.showtomatoesandmetacritics) + Skin.HasSetting(furniture.flagicons)</visible>
@@ -1596,6 +1599,7 @@
                 <left>3</left>
                 <textcolor>Dark2</textcolor>
                 <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)]%</label>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="image" description="Rotten Tomatoes">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_UserMeter)) + !ListItem.IsCollection  + Skin.HasSetting(furniture.showtomatoesandmetacritics) + Skin.HasSetting(furniture.flagicons)</visible>
@@ -1605,6 +1609,7 @@
                 <height>38</height>
                 <left>35</left>
                 <texture colordiffuse="Dark1" background="true">$VAR[RottenTomatoesAudience]</texture>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="label" description="Rotten Tomatoes">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_UserMeter)) + !ListItem.IsCollection  + Skin.HasSetting(furniture.showtomatoesandmetacritics) + Skin.HasSetting(furniture.flagicons)</visible>
@@ -1615,6 +1620,7 @@
                 <left>3</left>
                 <textcolor>Dark2</textcolor>
                 <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_UserMeter)]%</label>
+                <include>Animation.RTMC.Icons</include>
             </control>
         </control>
         <control type="grouplist">
@@ -1945,6 +1951,7 @@
                 <height>40</height>
                 <left>30</left>
                 <texture background="true">backg/mc.png</texture>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="label" description="Rotten Tomatoes">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Metacritic_Rating)) + Skin.HasSetting(furniture.showtomatoesandmetacritics) + Skin.HasSetting(furniture.flagicons)</visible>
@@ -1955,6 +1962,7 @@
                 <left>3</left>
                 <textcolor>Dark2</textcolor>
                 <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.Metacritic_Rating)]%</label>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="image" description="Rotten Tomatoes">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)) + Skin.HasSetting(furniture.showtomatoesandmetacritics) + Skin.HasSetting(furniture.flagicons)</visible>
@@ -1964,6 +1972,7 @@
                 <height>40</height>
                 <left>30</left>
                 <texture background="true">$VAR[RottenTomatoesColored]</texture>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="label" description="Rotten Tomatoes">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)) + Skin.HasSetting(furniture.showtomatoesandmetacritics) + Skin.HasSetting(furniture.flagicons)</visible>
@@ -1974,6 +1983,7 @@
                 <left>3</left>
                 <textcolor>Dark2</textcolor>
                 <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)]%</label>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="image" description="Rotten Tomatoes">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_UserMeter)) + !ListItem.IsCollection  + Skin.HasSetting(furniture.showtomatoesandmetacritics) + Skin.HasSetting(furniture.flagicons)</visible>
@@ -1983,6 +1993,7 @@
                 <height>40</height>
                 <left>30</left>
                 <texture background="true">$VAR[RottenTomatoesAudienceColored]</texture>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="label" description="Rotten Tomatoes">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_UserMeter)) + !ListItem.IsCollection  + Skin.HasSetting(furniture.showtomatoesandmetacritics)</visible>
@@ -1993,6 +2004,7 @@
                 <left>3</left>
                 <textcolor>Dark2</textcolor>
                 <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_UserMeter)]%</label>
+                <include>Animation.RTMC.Icons</include>
             </control>
         </control>
         <control type="grouplist">
@@ -2254,6 +2266,7 @@
                 <height>33</height>
                 <left>15</left>
                 <texture colordiffuse="Dark1" background="true">backg/mc_white.png</texture>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="label">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Metacritic_Rating)) + Skin.HasSetting(furniture.showtomatoesandmetacritics)+ !Skin.HasSetting(furniture.flagicons)</visible>
@@ -2264,6 +2277,7 @@
                 <left>3</left>
                 <textcolor>Dark2</textcolor>
                 <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.Metacritic_Rating)]%</label>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="image">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)) + Skin.HasSetting(furniture.showtomatoesandmetacritics)+ !Skin.HasSetting(furniture.flagicons)</visible>
@@ -2273,6 +2287,7 @@
                 <height>33</height>
                 <left>15</left>
                 <texture colordiffuse="Dark1" background="true">$VAR[RottenTomatoes]</texture>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="label">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)) + Skin.HasSetting(furniture.showtomatoesandmetacritics)+ !Skin.HasSetting(furniture.flagicons)</visible>
@@ -2283,6 +2298,7 @@
                 <left>3</left>
                 <textcolor>Dark2</textcolor>
                 <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)]%</label>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="image">
                 <visible>!String.IsEmpty(Container(9500).ListItem.UserRating) + Skin.HasSetting(furniture.showuserrating)+ Skin.HasSetting(furniture.flagicons)</visible>
@@ -2309,6 +2325,7 @@
                 <height>38</height>
                 <left>30</left>
                 <texture colordiffuse="Dark1" background="true">backg/mc_white.png</texture>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="label">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Metacritic_Rating)) + Skin.HasSetting(furniture.showtomatoesandmetacritics)+ Skin.HasSetting(furniture.flagicons)</visible>
@@ -2319,6 +2336,7 @@
                 <left>3</left>
                 <textcolor>Dark2</textcolor>
                 <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.Metacritic_Rating)]%</label>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="image">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)) + Skin.HasSetting(furniture.showtomatoesandmetacritics)+ Skin.HasSetting(furniture.flagicons)</visible>
@@ -2328,6 +2346,7 @@
                 <height>38</height>
                 <left>30</left>
                 <texture colordiffuse="Dark1" background="true">$VAR[RottenTomatoes]</texture>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="label">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)) + Skin.HasSetting(furniture.showtomatoesandmetacritics)+ Skin.HasSetting(furniture.flagicons)</visible>
@@ -2338,6 +2357,7 @@
                 <left>3</left>
                 <textcolor>Dark2</textcolor>
                 <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)]%</label>
+                <include>Animation.RTMC.Icons</include>
             </control>
         </control>
         <control type="grouplist">
@@ -2560,6 +2580,7 @@
                 <height>33</height>
                 <left>15</left>
                 <texture background="true">backg/mc.png</texture>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="label">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Metacritic_Rating)) + Skin.HasSetting(furniture.showtomatoesandmetacritics) + !Skin.HasSetting(furniture.flagicons)</visible>
@@ -2570,6 +2591,7 @@
                 <left>3</left>
                 <textcolor>Dark2</textcolor>
                 <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.Metacritic_Rating)]%</label>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="image">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)) + Skin.HasSetting(furniture.showtomatoesandmetacritics) + !Skin.HasSetting(furniture.flagicons)</visible>
@@ -2579,6 +2601,7 @@
                 <height>33</height>
                 <left>15</left>
                 <texture background="true">$VAR[RottenTomatoesColored]</texture>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="label">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)) + Skin.HasSetting(furniture.showtomatoesandmetacritics) + !Skin.HasSetting(furniture.flagicons)</visible>
@@ -2589,6 +2612,7 @@
                 <left>3</left>
                 <textcolor>Dark2</textcolor>
                 <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)]%</label>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="image">
                 <visible>!String.IsEmpty(Container(9500).ListItem.UserRating) + Skin.HasSetting(furniture.showuserrating) + Skin.HasSetting(furniture.flagicons)</visible>
@@ -2615,6 +2639,7 @@
                 <height>40</height>
                 <left>30</left>
                 <texture background="true">backg/mc.png</texture>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="label">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Metacritic_Rating)) + Skin.HasSetting(furniture.showtomatoesandmetacritics) + Skin.HasSetting(furniture.flagicons)</visible>
@@ -2625,6 +2650,7 @@
                 <left>3</left>
                 <textcolor>Dark2</textcolor>
                 <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.Metacritic_Rating)]%</label>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="image">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)) + Skin.HasSetting(furniture.showtomatoesandmetacritics) + Skin.HasSetting(furniture.flagicons)</visible>
@@ -2634,6 +2660,7 @@
                 <height>40</height>
                 <left>30</left>
                 <texture background="true">$VAR[RottenTomatoesColored]</texture>
+                <include>Animation.RTMC.Icons</include>
             </control>
             <control type="label">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)) + Skin.HasSetting(furniture.showtomatoesandmetacritics) + Skin.HasSetting(furniture.flagicons)</visible>
@@ -2644,6 +2671,7 @@
                 <left>3</left>
                 <textcolor>Dark2</textcolor>
                 <label>$INFO[Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)]%</label>
+                <include>Animation.RTMC.Icons</include>
             </control>
         </control>
     </include>
